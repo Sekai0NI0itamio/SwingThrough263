@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0-only"
+
+[[mods]]
+modId="swingthrough"
+version="1.0.0"
+displayName="SwingThrough"
+authors="Itamio, sisby-folk"
+description='''Allows targeting living entities through transparent blocks. Unofficial Forge port of SwingThrough by sisby-folk (LGPL-3.0-only).'''
+
+[[dependencies.swingthrough]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.swingthrough]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"

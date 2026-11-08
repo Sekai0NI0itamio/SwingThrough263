@@ -1,12 +1,15 @@
 {
   "required": true,
-  "minVersion": "0.4.4",
   "package": "itamio.swingthrough.mixin",
   "compatibilityLevel": "JAVA_17",
+  "mixins": [],
   "client": [
     "GameRendererMixin"
   ],
+  "server": [],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "refmap": "swingthrough.refmap.json",
+  "minVersion": "0.8"
 }
