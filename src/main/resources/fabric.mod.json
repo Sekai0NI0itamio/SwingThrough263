@@ -3,11 +3,12 @@
   "id": "swingthrough263",
   "version": "${version}",
   "name": "SwingThrough",
-  "description": "Allows targeting living entities through transparent blocks. Unofficial port of SwingThrough by sisby-folk (LGPL-3.0-only) for Minecraft 26.3 (Fabric). See NOTICE for credit.",
+  "description": "Allows targeting living entities through transparent blocks. Unofficial port for Minecraft 1.20.1 (Fabric) of SwingThrough by sisby-folk (LGPL-3.0-only). See NOTICE for credit.",
   "authors": ["Itamio", "sisby-folk"],
   "contact": {"homepage": "https://github.com/Sekai0NI0itamio/SwingThrough263", "sources": "https://github.com/sisby-folk/swingthrough", "issues": "https://github.com/Sekai0NI0itamio/SwingThrough263/issues"},
   "license": "LGPL-3.0-only",
   "environment": "*",
   "entrypoints": {"main": ["itamio.swingthrough.SwingThroughMod"]},
-  "depends": {"fabricloader": ">=0.20.1", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*"}
+  "mixins": ["swingthrough263.mixins.json"],
+  "depends": {"fabricloader": ">=0.16.14", "minecraft": ">=1.20.1 <1.21", "java": ">=17", "fabric-api": "*"}
 }
