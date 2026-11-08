@@ -1,8 +1,8 @@
-NOTICE
-SwingThrough (Itamio port for Minecraft 26.3)
+SwingThrough (Itamio port for Minecraft 1.21.1)
 Unofficial port of SwingThrough by sisby-folk
 (https://github.com/sisby-folk/swingthrough, LGPL-3.0-only, 6.3M
 downloads on Modrinth, max Minecraft 1.21.1). All credit to
-sisby-folk. Port status: GameRenderer.findCrosshairTarget was
-removed in 26.3's crosshair rework; targeting logic not ported
-in this loadable port. See README.
+sisby-folk. Port status: FULL original logic ported for 1.21.1 —
+the single GameRenderer mixin (findCrosshairTarget in Yarn,
+pick in Mojang mappings) is faithfully reimplemented in
+itamio.swingthrough.mixin. See README.
